@@ -10,11 +10,6 @@ package:
 dependencies:
   common_cells: { git: "https://github.com/pulp-platform/common_cells.git", version: 1.38.0 }
 
-# Freeze any dependency updates. Optional. False if omitted.
-# Useful for chip packages. Once the chip is in final tapeout mode, and
-# dependency updates would require disastrous amounts of re-verification.
-frozen: true
-
 # List of source files in this package. Optional.
 sources:
   # Source files can be grouped:
