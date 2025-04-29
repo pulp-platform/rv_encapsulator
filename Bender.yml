@@ -1,0 +1,26 @@
+# Package metadata. Required.
+package:
+  # The name of the package. Required.
+  name: rv_encapsulator
+
+  # The list of package authors and contributors. Optional.
+  # By convention, authors should be listed in the form shown below.
+  authors: ["Umberto Laghi <umberto.laghi2@unibo.it>"]
+
+dependencies:
+  common_cells: { git: "https://github.com/pulp-platform/common_cells.git", version: 1.38.0 }
+
+# Freeze any dependency updates. Optional. False if omitted.
+# Useful for chip packages. Once the chip is in final tapeout mode, and
+# dependency updates would require disastrous amounts of re-verification.
+frozen: true
+
+# List of source files in this package. Optional.
+sources:
+  # Source files can be grouped:
+  - files:
+      - src/include/encap_pkg.sv
+      - src/rtl/encapsulator.sv
+      - src/rtl/atb_transmitter.sv
+      - src/rtl/slicer.sv
+      - src/rtl/rv_encapsulator.sv
