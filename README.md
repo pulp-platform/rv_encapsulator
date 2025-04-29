@@ -11,6 +11,7 @@ rv_encapsulator is developed as part of the PULP project, a joint effort between
 
 ## License
 Unless specified otherwise in the respective file headers, all code checked into this repository is made available under a permissive license. All hardware sources and tool scripts are licensed under the Solderpad Hardware License 0.51 (see [`LICENSE`](LICENSE)) or compatible licenses, except for files contained in the `docs` directory, which are licensed under the [Creative Commons Attribution-NoDerivates 4.0 International](https://creativecommons.org/licenses/by-nd/4.0) license (CC BY-ND 4.0).
+The file `generate_do.py` is licensed under [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) license.
 
 ## Short summary
 
